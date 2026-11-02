@@ -1,0 +1,42 @@
+var a = 2 ;
+var b = 2.0;
+print(a==b);
+print(b);
+print(a);
+var c = nil ;
+print(c);
+c=6;
+print(c);
+fun inc(i) {
+    return i+1;
+}
+print(inc(2));
+
+fun dec(i){
+return i-1;
+}
+print(dec(10));
+
+a=5 ;
+if a < 4 {
+    a="string";
+}
+else {
+    a=false;
+}
+print(a);
+
+print("...............");
+print("...............");
+a=1;
+fun foo(d){
+    a=2;
+    var a=3 ;
+    print(a);
+}
+foo(0);
+print(a);
+
+print("...............");
+print("...............");
+
